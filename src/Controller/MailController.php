@@ -31,7 +31,7 @@ class MailController extends AbstractController
 
             ->subject("sent with symfony")
 
-            ->text("Let's try this mailer!");
+            ->text("A second time...");
 
         try {
 
